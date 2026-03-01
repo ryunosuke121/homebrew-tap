@@ -8,4 +8,8 @@ cask "hyut" do
   homepage "https://github.com/ryunosuke121/hyut"
 
   app "hyut.app"
+
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/hyut.app"]
+  end
 end
