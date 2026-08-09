@@ -1,15 +1,11 @@
 cask "hyut" do
-  version "0.1.0"
-  sha256 "8aa4ae70218ff89ac5e7742e46661f384c6a730a055343604d94ca4624ac7c2f"
+  version "0.2.1"
+  sha256 "996fad7b39b00b2d1e63605b487c92d9ac33e83a33d4e4b4a144225a13f42b91"
 
-  url "https://github.com/ryunosuke121/hyut/releases/download/v0.1.0/hyut_0.1.0_aarch64.dmg"
+  url "https://github.com/ryunosuke121/hyut/releases/download/v0.2.1/hyut_0.2.1_aarch64.dmg"
   name "hyut"
   desc "Quick memo app for macOS"
   homepage "https://github.com/ryunosuke121/hyut"
 
   app "hyut.app"
-
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/hyut.app"]
-  end
 end
