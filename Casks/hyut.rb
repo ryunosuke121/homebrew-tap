@@ -1,8 +1,8 @@
 cask "hyut" do
-  version "0.2.1"
-  sha256 "996fad7b39b00b2d1e63605b487c92d9ac33e83a33d4e4b4a144225a13f42b91"
+  version "0.3.0"
+  sha256 "e1ec38cb9ba7cc5bf00e418ee0585ee6967a90af3695d76b4464c8fb30346947"
 
-  url "https://github.com/ryunosuke121/hyut/releases/download/v0.2.1/hyut_0.2.1_aarch64.dmg"
+  url "https://github.com/ryunosuke121/hyut/releases/download/v0.3.0/hyut_0.3.0_aarch64.dmg"
   name "hyut"
   desc "Quick memo app for macOS"
   homepage "https://github.com/ryunosuke121/hyut"
